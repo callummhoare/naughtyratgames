@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron:900');
+/*     __             ___
+      // )    ___--""    "-.
+ \ |,"( /`--""              `.
+  \/ 0                        \
+  (   _.-.              ,'"    ; (c) Bernhard Rieder
+   |\"   /`. \  ,      /       |
+   | \  ' .'`.; |      |       \.______________________________
+     _-'.'    | |--..,,,\_    \________------------""""""""""""'
+  _ '''_   _-'.'     _ ___"-   )
+ | |  | | '''"      | |''---~"" 
+ | |__| | ___ _   _ | |
+ |  __  |/ _ \ | | || |
+ | |  | |  __/ |_| ||_|
+ |_|  |_|\___|\__, |(_)
+               __/ |
+ __     __    |___/                   _ _                                 _
+ \ \   / /                           ( ) |                               (_)
+  \ \_/ /___  _   _    ___ __ _ _ __ |/| |_     ___ ___  _ __ ___   ___   _  _ __
+   \   // _ \| | | |  / __/ _` | '_ \  | __|   / __/ _ \| '_ ` _ \ / _ \ | || '_ \
+    | || (_) | |_| | | (_| (_| | | | | | |_   | (_| (_) | | | | | |  __/ | || | | |
+    |_| \___/ \__,_|  \___\__,_|_| |_|  \__|   \___\___/|_| |_| |_|\___| |_||_| |_|
+  _   __                           _             _ _     _
+ (_) / _|                         | |           ( ) |   | |
+  _ | |_   _   _  ___  _   _    __| | ___  _ __ |/| |_  | |__   __ ___   _____    __ _ _ __  _   _
+ | ||  _| | | | |/ _ \| | | |  / _` |/ _ \| '_ \  | __| | '_ \ / _` \ \ / / _ \  / _` | '_ \| | | |
+ | || |   | |_| | (_) | |_| | | (_| | (_) | | | | | |_  | | | | (_| |\ V /  __/ | (_| | | | | |_| |
+ |_||_|    \__, |\___/ \__,_|  \__,_|\___/|_| |_|  \__| |_| |_|\__,_| \_/ \___|  \__,_|_| |_|\__, |
+      _     __/ |                                        _        _        _                  __/ |
+     | |   |___/                                        | |      | |      | |                |___/
+  ___| |__   ___  ___  ___  ___ _   _   _ __   __ _  ___| | _____| |_ ___ | |
+ / __| '_ \ / _ \/ _ \/ __|/ _ \ | | | | '_ \ / _` |/ __| |/ / _ \ __/ __|| |
+| (__| | | |  __/  __/\__ \  __/ |_| | | |_) | (_| | (__|   <  __/ |_\__ \|_|
+ \___|_| |_|\___|\___||___/\___|\__, | | .__/ \__,_|\___|_|\_\___|\__|___/(_)
+                                 __/ | | |
+                                |___/  |_|
+
+Sets all font to Orbitron and changes background colour of page. */
+html{background: #262626;color: white;font-size: 18px;font-family: 'Orbitron', sans-serif;}
+
+/* Main content after navbar, moves everything down. */
+content{position: relative;top: 70px;left: 0px;width: 100%;}
+
+/* Manages arrangement of navbar. */
+navbar-background{position: absolute;width: 100%;top: 0px;left: 0px;}
+
+/* Main CSS for navbar, DON'T DELETE!!! */
+navbar-inner{
+    box-shadow: 0px 7.5px 35px rgb(0,0,0);
+    position: absolute;
+    padding: 10px;
+    width: 100%;
+    height:125px;
+    background: #45484d;
+    background: -moz-linear-gradient(top, #45484d 0%, #000000 100%);
+    background: -webkit-linear-gradient(top, #45484d 0%,#000000 100%);
+    background: linear-gradient(to bottom, #45484d 0%,#000000 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0);}
+
+/* Main CSS for footer, DON'T DELETE!!! */
+footer{
+    box-shadow: 0px 7.5px 35px rgb(0,0,0);
+    padding: 11px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    height:70px;
+    background: #45484d;
+    background: -moz-linear-gradient(top, #45484d 0%, #000000 100%);
+    background: -webkit-linear-gradient(top, #45484d 0%,#000000 100%);
+    background: linear-gradient(to bottom, #45484d 0%,#000000 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 );
+    cursor: default;
+    color: white;
+    bottom: 0;
+    font-size: 18px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+buttons-navbar-inner{transition: all 200ms ease-out;display: inline-block;}
+buttons-navbar-inner:hover{transform: translateY(-8px)}
+
+footer-button{color: white;text-shadow: 0px 0px 15px rgba(255,255,255,0.70);}
+
+/* Normal Buttons */
+buttons-normal:hover{transform: translateY(-5px);cursor: pointer;color: #000;
+background: #ffffff;
+background: -moz-linear-gradient(top, #ffffff 0%, #aaaaaa 100%);
+background: -webkit-linear-gradient(top, #ffffff 0%,#aaaaaa 100%);
+background: linear-gradient(to bottom, #ffffff 0%,#aaaaaa 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#aaaaaa',GradientType=0 );}
+
+buttons-normal{
+	color: #888888;
+    text-decoration: none;
+    margin-top: 5px;
+    transition: all 400ms ease-out;
+    box-shadow: 0px 7.5px 35px rgb(0,0,0);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    display: inline-block;
+    background: #45484d;
+    background: -moz-linear-gradient(top, #45484d 0%, #000000 100%);
+    background: -webkit-linear-gradient(top, #45484d 0%,#000000 100%);
+    background: linear-gradient(to bottom, #45484d 0%,#000000 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0);}
+
+/* Buttons that are specifically on the navbar. */
+buttons-navbar:hover{color: #fff;}
+
+buttons-navbar{transition: all 200ms ease-out;
+    
+    cursor: default;
+    margin-left: 40px;
+    color: #888888;
+    font-size: 28px;
+    font-family: 'Orbitron', sans-serif;
+}
+/* Background logo on background. */
+logo-background{
+    display: block;
+    position: absolute;
+    top: 145px;
+    left: -800px;
+    opacity: 0.05;
+}
+
+paragraph-shadow{text-shadow: 0px 3px 15px #000;}
+
+small-paragraph-single{
+    display: block;
+	padding-left: 25px;
+	padding-right: 25px;
+    padding-top: 40px;
+	padding-bottom: 40px;
+    margin: 15px;
+	margin-top: 15px;
+    margin-bottom: 5px;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.85) 0%,rgba(0,0,0,0.3) 100%);
+}
+
+logo:hover{cursor: pointer;}
+buttons-navbar:hover{
+    text-shadow: 0px 0px 7.5px rgba(255,255,255,0.70);
+    cursor: pointer;
+    margin-left: 40px;
+    color: white;
+}
