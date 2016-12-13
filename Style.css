@@ -59,22 +59,23 @@ navbar-inner{
 
 /* Main CSS for footer, DON'T DELETE!!! */
 footer{
-    box-shadow: 0px 7.5px 35px rgb(0,0,0);
-    padding: 11px;
-    width: 100%;
-    color: white;
-    text-align: center;
-    height:70px;
-    background: #45484d;
-    background: -moz-linear-gradient(top, #45484d 0%, #000000 100%);
-    background: -webkit-linear-gradient(top, #45484d 0%,#000000 100%);
-    background: linear-gradient(to bottom, #45484d 0%,#000000 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 );
-    cursor: default;
-    color: white;
-    bottom: 0;
-    font-size: 18px;
-    font-family: 'Orbitron', sans-serif;
+	position: absolute;
+	right: 0;
+	bottom: 100;
+  	left: 0;
+ 	padding: 1rem;
+    	box-shadow: 0px 7.5px 35px rgb(0,0,0);
+    	color: white;
+    	text-align: center;
+    	height:70px;
+    	background: #45484d;
+    	background: -moz-linear-gradient(top, #45484d 0%, #000000 100%);
+    	background: -webkit-linear-gradient(top, #45484d 0%,#000000 100%);
+    	background: linear-gradient(to bottom, #45484d 0%,#000000 100%);
+    	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 );
+    	cursor: default;
+    	font-size: 18px;
+    	font-family: 'Orbitron', sans-serif;
 }
 
 buttons-navbar-inner{transition: all 200ms ease-out;display: inline-block;}
